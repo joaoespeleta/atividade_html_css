@@ -1,67 +1,142 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Robo Otto</title>
-    <link rel="stylesheet" href="CSS/styles.css">
-</head>
-<body>
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site XP Investimentos</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+  </head>
+  <body>
     <main>
-        <div class="logo">
-            <img src="img/ottologo.jpg" alt="Robo Otto" width="20%" height="20%">
-        </div>
-        <h1 class="manchete">Robo Otto</h1>
-        <h2 class="headline">O que ele consegue fazer?</h2>
+      <div class="logo">
+        <img
+          src="img/logo_xp.png"
+          alt="XP investimentos"
+          width="150px"
+          height="150px"
+        />
+      </div>
+      <h1 class="manchete">XP Investimentos</h1>
+      <h2 class="headline">
+        Invista com inteligência e faça seu dinheiro render
+      </h2>
 
-        <nav class="menu">
-            <a href="index.html">Início</a>
-            <a href="produto.html">Produtos</a>
-        </nav>
+      <div class="video">
+        <video width="300px" height="150px" controls>
+          <source src="video/produtos_investimentos.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <article>
+        <h1>Quem é a XP?</h1>
+        <p>
+          A XP é uma plataforma de investimentos que intermedia a relação entre
+          a B3 e você investidor, nela você possui um home broker com diversos
+          produtos de investimento.
+        </p>
 
-        <div class="video">
-            <video width="300px" height="150px" controls>
-                <source src="video/ottomovie.mp4" type="video/mp4">
-            </video>
-        </div>
-        <article>
-            <h1> Quem é Otto?</h1>
-            <p> Otto é um rotto interativo que qualquer um pode fazer</p>
+        <figure>
+          <img
+            src="img/xp_logo_2.jpg"
+            alt="Investidor analisando gráficos financeiros"
+            width="35%"
+            height="35%"
+          />
+        </figure>
+      </article>
 
-            <figure>
-                <img src ="img/otto.jpg" alt="Mãe e filho montando um robo" width="35%" height="35%">
-            </figure>
-        </article>
-<div class="kibotto">
-    <h2>Kit Básico Otto</h2>
-    <table>
-        <thead>
+      <article id="produtos">
+        <h1>Tesouro Direto</h1>
+        <p>
+          Títulos públicos emitidos pelo Governo Federal, considerados os
+          investimentos mais seguros do país. Ideal para quem busca
+          rentabilidade previsível com baixo risco, começando a partir de R$
+          30,00.
+        </p>
+        <figure>
+          <img
+            src="img/tesouro_direto.webp"
+            alt="Tesouro Direto"
+            width="35%"
+            height="35%"
+          />
+        </figure>
+      </article>
+
+      <article>
+        <h1>CDB - Certificado de Depósito Bancário</h1>
+        <p>
+          Empreste dinheiro ao banco e receba juros em troca. Com garantia do
+          FGC em até R$ 250 mil por instituição, o CDB é uma excelente opção
+          para diversificar sua reserva de emergência com segurança.
+        </p>
+        <figure>
+          <img
+            src="img/cdb.png"
+            alt="CDB Certificado de Depósito Bancário"
+            width="35%"
+            height="35%"
+          />
+        </figure>
+      </article>
+
+      <article>
+        <h1>LCI e LCA</h1>
+        <p>
+          Letras de Crédito Imobiliário e do Agronegócio são investimentos
+          isentos de Imposto de Renda para pessoa física. Combinam segurança do
+          FGC com rentabilidade atrativa no médio e longo prazo.
+        </p>
+        <figure>
+          <img src="img/lci-lca.jpg" alt="LCI e LCA" width="35%" height="35%" />
+        </figure>
+      </article>
+
+      <article>
+        <h1>Fundos Imobiliários (FIIs)</h1>
+        <p>
+          Invista em imóveis de forma prática, sem precisar comprar um imóvel
+          inteiro. Receba rendimentos mensais isentos de IR e aproveite a
+          valorização de empreendimentos comerciais, logísticos e residenciais.
+        </p>
+        <figure>
+          <img
+            src="img/fundos-imobiliarios.jpg"
+            alt="Fundos Imobiliários"
+            width="35%"
+            height="35%"
+          />
+        </figure>
+      </article>
+      <div class="kibotto">
+        <h2>Carteira Básica XP investimentos</h2>
+        <table>
+          <thead>
             <tr>
-                <th>Componentes</th>
-                <th>Qualidade</th>
+              <th>Produto</th>
+              <th>Alocação Sugerida</th>
             </tr>
-        </thead>
-        <tbody>
+          </thead>
+          <tbody>
             <tr>
-                <td>Pés em PLA branco</td>
-                <td>2</td>
+              <td>Tesouro Selic</td>
+              <td>30%</td>
             </tr>
             <tr>
-                <td>Pernas em PLA branco</td>
-                <td>2</td>
+              <td>CDB Pós-Fixado</td>
+              <td>25%</td>
+            </tr>
+            <tr></tr>
+            <tr>
+              <td>LCI / LCA</td>
+              <td>25%</td>
             </tr>
             <tr>
-                <tr>
-                <td>Corpo em PLA branco</td>
-                <td>2</td>
+              <td>Fundos Imobiliários</td>
+              <td>20%</td>
             </tr>
-            <tr>
-                <td>Cabeça verde em PLA branco</td>
-                <td>1</td>
-              </tr>
-        </tbody>
-    </table>
-</div>
+          </tbody>
+        </table>
+      </div>
     </main>
-</body>
+  </body>
 </html>
